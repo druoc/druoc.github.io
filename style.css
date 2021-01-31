@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+body {
+  font-family: 'Jura', sans-serif;
+}
+
+.about-us {
+  height: 100vh;
+  background-image: url('/img/daniel-dinuzzo-qCjolcMFaLI-optimised.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.our-service {
+  height: 100vh;
+  background-image: url('/img/terrah-holly-optimised.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contact-us {
+  height: 100vh;
+  background-image: url('/img/tierra-mallorca-rgJ1J8SDEAY-optimised.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+
+.about-us-box {
+  margin-top: 200px;
+  opacity: 0.8;
+  animation: fadein 1.4s, moveinleft 1.4s;
+}
+
+.our-service-box {
+  margin-top: 250px;
+  opacity: 0.8;
+  animation: fadein 1.4s;
+}
+
+.contact-us-below-box {
+  opacity: 0.8;
+  animation: fadein 1.4s, moveinright 1.4s;
+}
+
+.contact-us-box {
+  opacity: 0.7;
+  margin-top: 7vh;
+  animation: fadein 1.4s;
+}
+
+.contact-form-container {
+  opacity: 0.8;
+  margin-top: 7vh;
+  margin-left: 20px;
+  width: 400px;
+  animation: fadein 1.4s;
+}
+
+.highlight1 {
+  font-weight: bolder;
+  color: red;
+}
+
+.highlight2 {
+  font-weight: bolder;
+  color: green;
+}
+
+@keyframes fadein {
+  from {opacity: 0; }
+  to {opacity: 0.8;}
+}
+
+@keyframes moveinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveinright {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateX(0);
+  }
+}
+
+
+footer {
+  padding: 1rem !important;
+}
